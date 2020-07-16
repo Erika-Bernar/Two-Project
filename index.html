@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
@@ -13,30 +14,30 @@
         </div>
         <nav>
             <div class="topnav" id="myTopnav">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SERVICES</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">TESTIMONIALS</a>
-                <a href="#">CONTACT</a>
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#testimonials">TESTIMONIALS</a>
+                <a href="#contact">CONTACT</a>
                 <a href="#" id="menu" class="icon">&#9776;</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="main_welcome">
+        <div class="main_welcome" id="home">
             <h1>WELCOME ON <span class="mycompany">MYCOMPANY</span></h1>
-            <p>We are a digital agency with <span class="bold">years of experience</span>and with <span class="bold">extraordinary people</span></p>
+            <p>We are a digital agency with <span class="bold">years of experience</span> and with <span class="bold">extraordinary people</span></p>
         </div>
         <div class="wrapper">
-            <div class="main_about">
+            <div class="main_about" id="about">
                 <div class="about_left">
                     <img src="/img/mac.png" class="mw-100" alt="mac">
                 </div>
                 <div class="about_right">
                     <h1>Some words <span class="bold">about us</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus <br> ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
                     <ul>
                         <li><span class="bold">Mission</span> - <i>We deliver uniqueness and quality</i></li>
                         <li><span class="bold">Skills</span> - <i>Delivering fast and excellent results</i></li>
@@ -49,7 +50,7 @@
         <div class="main_team">
             <div class="wrapper">
             <h1>OUR TEAM</h1>
-            <div class="line"></div>
+            
             <div class="team_cards">
                 <div class="card">
                     <div class="photo"></div>
@@ -82,10 +83,10 @@
         </div>
         </div>
 
-        <div class="main_services">
+        <div class="main_services" id="services">
             <div class="wrapper">
                 <h1>OUR SERVICES</h1>
-                <div class="line"></div>
+                
                 <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
                 
                 <div class="services_cards">
@@ -122,10 +123,10 @@
             </div>
         </div>
 
-        <div class="main_clients">
+        <div class="main_clients" id="portfolio">
             <div class="wrapper">
                 <h1>SOME OF <span class="bold">OUR CLIENTS</span></h1>
-            <div class="line"></div>
+            
             <div class="clients">
                 <img src="/img/CHANEL.png" alt="CHANEL">
                 <img src="/img/LACOSTE.png" alt="LACOSTE">
@@ -140,7 +141,7 @@
         <div class="main_work">
             <div class="wrapper">
                 <h1>TAKE A LOOK AT <span class="bold">OUR WORK</span></h1>
-                <div class="line"></div>
+                
                 <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
 
                 <div class="gallery">
@@ -166,33 +167,53 @@
             </div>
         </div>
 
-        <div class="main_testimonials">
+        <div class="main_testimonials" id="testimonials">
             <div class="wrapper">
             <h1><span class="bold">our clients’</span> testimonials</h1>
-            <div class="line"></div>
+            
             <p class="testimonial">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
             <p>Dean Martin, CEO Acme Inc.</p>
         </div>
         </div>
 
-      <section class="contact_form">
-          <div class="contact_wrapper">
-              <form action="#" name="newform" method="POST">
-                  <div class="form_inputs">
-                      <p>Name<span class="red">*</span></p>
-                      <input type="text">
-                      <p>Email address<span class="red">*</span></p>
-                      <input type="text">
-                  </div>
-                  <textarea name="text"></textarea>
-                  <div class="button_block">
-                      <input type="submit" value="SEND">
-                  </div>
-              </form>
+      <section class="contact_form" id="contact">
+          <div class="wrapper">
+            <h1>CONTACT US</h1>
+            
+            <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i> </p>
+  
+            <div class="contact_wrapper">
+                <form action="#" name="newform" method="POST">
+                    <div class="form_inputs">
+                        <p>Name<span class="red">*</span> <input type="text"></p>
+                        
+                        <p>Email address<span class="red">*</span><input type="text"></p>
+                    </div>
+                    <p>Message<span class="red">*</span></p>
+                    <textarea name="text"></textarea>
+                    <div class="button_block">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
+            </div>
+        </section>
           </div>
-      </section>
+          
 
     </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="social">
+                <a href="#"><img src="/img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="/img/google.png" alt="google"></a>
+                <a href="#"><img src="/img/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="/img/dribbble.png" alt="dribbble"></a>
+                <a href="#"><img src="/img/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="/script.js"></script>
 </body>
