@@ -195,7 +195,7 @@ main .main_about {
     text-align: center;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 20px;
+    grid-column-gap: 5px;
     
 }
 
