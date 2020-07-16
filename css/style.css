@@ -199,6 +199,11 @@ main .main_about {
     
 }
 
+.services_cards img {
+    width: 125px;
+    height: 125px;
+}
+
 .services_cards div:first-of-type {
     padding-left: 40px;
 }
